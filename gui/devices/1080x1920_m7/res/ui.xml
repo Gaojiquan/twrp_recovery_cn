@@ -1247,7 +1247,7 @@
 			<object type="text" color="%text_color%">
 				<font resource="font" />
 				<placement x="%center_x%" y="%slider_text_y%" placement="4" />
-				<text>Swipe to Wipe</text>
+				<text>向右滑动来清除</text>
 			</object>
 
 			<object type="action">
@@ -1851,11 +1851,11 @@
 					<action function="set">tw_back=restore</action>
 					<action function="set">tw_action=cmd</action>
 					<action function="set">tw_action_param=cd %tw_backups_folder% && rm -rf &quot;%tw_restore_name%&quot;</action>
-					<action function="set">tw_text1=Delete Backup? %tw_restore_name%</action>
-					<action function="set">tw_text2=This cannot be undone!</action>
-					<action function="set">tw_action_text1=Deleting Backup...</action>
-					<action function="set">tw_complete_text1=Backup Delete Complete</action>
-					<action function="set">tw_slider_text=Swipe to Delete</action>
+					<action function="set">tw_text1=删除这个备份? %tw_restore_name%</action>
+					<action function="set">tw_text2=此操作不可恢复!</action>
+					<action function="set">tw_action_text1=正在删除备份...</action>
+					<action function="set">tw_complete_text1=备份删除完毕</action>
+					<action function="set">tw_slider_text=向右滑动来删除</action>
 					<action function="page">confirm_action</action>
 				</actions>
 			</object>
@@ -1987,7 +1987,7 @@
 			<object type="text" color="%text_color%">
 				<font resource="font" />
 				<placement x="%center_x%" y="%slider_text_y%" placement="4" />
-				<text>Swipe to Restore</text>
+				<text>向右滑动来恢复</text>
 			</object>
 
 			<object type="action">
@@ -3780,8 +3780,8 @@
 					<action function="set">tw_back=advanced</action>
 					<action function="set">tw_action=adbsideload</action>
 					<action function="set">tw_action_text1=ADB Sideload</action>
-					<action function="set">tw_action_text2=Usage: adb sideload filename.zip</action>
-					<action function="set">tw_complete_text1=ADB Sideload Complete</action>
+					<action function="set">tw_action_text2=使用方法: adb sideload filename.zip</action>
+					<action function="set">tw_complete_text1=ADB Sideload 完成</action>
 					<action function="set">tw_has_cancel=1</action>
 					<action function="set">tw_show_reboot=1</action>
 					<action function="set">tw_cancel_action=adbsideloadcancel</action>
@@ -3792,7 +3792,7 @@
 			<object type="text" color="%text_color%">
 				<font resource="font" />
 				<placement x="%center_x%" y="%slider_text_y%" placement="4" />
-				<text>Swipe to Start Sideload</text>
+				<text>向右滑动来启动Sideload</text>
 			</object>
 
 			<object type="action">
@@ -3858,7 +3858,7 @@
 			<object type="text" color="%text_color%">
 				<font resource="font" />
 				<placement x="%center_x%" y="%slider_text_y%" placement="4" />
-				<text>Swipe to Install</text>
+				<text>向右滑动来安装</text>
 			</object>
 		</page>
 	</pages>
